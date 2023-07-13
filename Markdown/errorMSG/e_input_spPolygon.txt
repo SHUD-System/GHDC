@@ -1,0 +1,6 @@
+流域边界必须为多边形的shapefile，无法处理线条、点、或者栅格文件定义的流域边界。
+并且，边界文件的投影信息(.prj文件)是合理的。
+
+The watershed boundary file must be SpatialPolygon/SpatialPolygonDataFrame 
+(in shapefile format) with a valid projection. The PolyLine/Points shapefiles 
+or tiff format are not acceptable. 

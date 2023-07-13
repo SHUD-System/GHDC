@@ -1,0 +1,141 @@
+{
+	"cn": {
+		"logo": "res/logo.png",
+		"supporter_logo": "res/supporter_cn.png",
+		"title": "全球水文数据云",
+		"title_en": "Global Hydrologic Data Cloud",
+		"data_desc": "已为全球用户提供<span>xxxx</span>次数据服务。",
+		"data_desc_name": "GHDC用户指南",
+		"data_desc_content": "https://shud.xyz/ghdc_cn/",
+		"confirm":"确认",
+		"submit":"提交",
+		"form": [
+			{
+				"name": "项目名称(限英文字母)",
+				"key": "project_name",
+				"default": "shud",
+				"message": "项目名称；受程序代码限制，暂只能使用拼音或英文",
+				"type":"string"
+			}, 
+            {
+				"name": "仅空间数据？",
+				"key": "dataonly",
+				"default": "No",
+				"message": "Yes=数据(DEM,土地利用,土壤质地数据)；No=数据+流域分割+河网+SHUD模型输入。若上传边界并非流域边界填Yes.",
+				"type":"string"
+			},
+			{
+				"name": "开始年份",
+				"key": "start_year",
+				"default": "2021",
+				"message": "开始年份不能大于结束年份",
+				"type": "int"
+			},
+			{
+				"name": "结束年份",
+				"key": "end_year",
+				"default": "2021",
+				"message": "开始年份不能大于结束年份",
+				"type": "int"
+			},
+			{
+				"name": "DEM数据",
+				"key": "dem_source",
+				"default": "aster30",
+				"message": "选项：merit90, aster30；请参考说明文件。",
+				"type": "string"
+			},
+			{
+				"name": "最小单元数",
+				"key": "minimum_cell_number",
+				"default": "2000",
+				"message": "预计使用最小的计算单元数量",
+				"type": "int"
+			},
+            {
+                "name": "含水层厚度",
+                "key": "aquifer_depth",
+                "default": "10",
+                "message": "自地表至不透水基岩的距离（米）",
+                "type": "int"
+            },
+            {
+				"name": "气象驱动",
+				"key": "meteorological_data",
+				"default": "GLDAS",
+				"message": "选项：GLDAS, NLDAS, CMFD；请参考说明文件。",
+				"type": "string"
+			}
+        ]
+	},
+	"en": {
+		"logo": "res/logo.png",
+		"supporter_logo": "res/supporter_en.png",
+		"title": "全球水文数据云",
+		"title_en": "Global Hydrologic Data Cloud",
+		"data_desc": "We already provide data <span>xxxx</span> times around the world.",
+		"data_desc_name": "GHDC User Guide",
+		"data_desc_content": "https://shud.xyz/ghdc_en/",
+		"confirm":"Confirm",
+		"submit":"Submit",
+		"form": [
+			{
+				"name": "Project Name",
+				"key": "project_name",
+				"default": "shudprj",
+				"message": "String, without space",
+				"type":"string"
+			},
+			{
+				"name": "Data Only?",
+				"key": "dataonly",
+				"default": "No",
+				"message": "Yes=Data(DEM, Soil, Landuse, Forcing), No=Data + Watershed + Model input",
+				"type":"string"
+			},
+			{
+				"name": "Start Year",
+				"key": "start_year",
+				"default": "2021",
+				"message": "The start year cannot be greater than the end year",
+				"type": "int"
+			},
+			{
+				"name": "End Year",
+				"key": "end_year",
+				"default": "2021",
+				"message": "The start year cannot be greater than the end year",
+				"type": "int"
+			},
+			{
+				"name": "DEM data",
+				"key": "dem_source",
+				"default": "aster30",
+				"message": "option: merit90, aster30. See the User Guide.",
+				"type": "string"
+			},
+			{
+				"name": "Minimum Cell Number",
+				"key": "minimum_cell_number",
+				"default": "2000",
+				"message": "",
+				"type": "int"
+			},
+            {
+                "name": "Aquifer Thickness",
+                "key": "aquifer_depth",
+                "default": "10",
+                "message": "Depth from land surface to impervious beckrock",
+                "type": "int"
+            },            
+			{
+				"name": "Meteorological Data",
+				"key": "meteorological_data",
+				"default": "GLDAS",
+				"message": "Option: GLDAS, NLDAS, CMFD. See the User Guide.",
+				"type": "string"
+			}
+
+		]
+	}
+}

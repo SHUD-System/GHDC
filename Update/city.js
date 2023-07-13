@@ -1,0 +1,20 @@
+var citys = [   
+ { "lnglat": [ 99.8869 , 34.28521 ] ,"name": " huanghe " ,"style":  1 },
+ { "lnglat": [ 106.16476 , 37.27167 ] ,"name": " NingXia " ,"style":  1 },
+ { "lnglat": [ 106.25308 , 38.36387 ] ,"name": " YanHuaCun " ,"style":  1 },
+ { "lnglat": [ 108.17566 , 33.55833 ] ,"name": " sanhekou " ,"style":  1 },
+ { "lnglat": [ 96.38649 , 33.90386 ] ,"name": " sanjiangyuan " ,"style":  1 },
+ { "lnglat": [ 26.00061 , 8.30475 ] ,"name": " Pongo " ,"style":  1 },
+ { "lnglat": [ 99.79494 , 38.40267 ] ,"name": " Heihe " ,"style":  1 },
+ { "lnglat": [ -89.62067 , 17.22378 ] ,"name": " Tikal " ,"style":  1 },
+ { "lnglat": [ -95.48606 , 29.80335 ] ,"name": " Houston " ,"style":  1 },
+ { "lnglat": [ -76.19043 , 40.14168 ] ,"name": " Conestoga " ,"style":  1 },
+ { "lnglat": [ -89.41701 , 43.19988 ] ,"name": " Mendota " ,"style":  1 },
+ { "lnglat": [ -121.52792 , 40.02491 ] ,"name": " Sacramento " ,"style":  1 },
+ { "lnglat": [ -77.90451 , 40.66476 ] ,"name": " Shalehill " ,"style":  1 },
+ { "lnglat": [ 118.73342 , 26.11072 ] ,"name": " meixi " ,"style":  1 },
+ { "lnglat": [ 101.4786 , 37.10993 ] ,"name": " datong " ,"style":  1 },
+ { "lnglat": [ 88.4001 , 29.68252 ] ,"name": " Brahmapu " ,"style":  1 },
+ { "lnglat": [ 103.79436 , 31.29739 ] ,"name": " lcg " ,"style":  1 },
+ { "lnglat": [ 99.8680332 , 38.40124151 ] ,"name": " heihe " ,"style":  4 }
+]

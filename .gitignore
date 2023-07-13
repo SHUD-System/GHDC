@@ -47,3 +47,26 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+._*
+favicon*
+*.bak
+back*
+cmds.sh
+backup.sh
+*.Rout
+nohup.out
+*.pdf
+logo.png
+x*.R
+camels.zi
+log.txt
+
+# project
+data
+confirmData
+zip
+logs
+camdels.zi
+cdata
+
