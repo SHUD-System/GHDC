@@ -1,0 +1,8 @@
+dir.working 	/home/ghdc
+target.dir	./confirmData
+path2FD 	/data/ForcingData/
+path2SD	/data/SpatialData/World/
+dir.email 	./txt
+dir.zipout 	./zip
+link.dl	https://shudfile.shuddata.com/download/
+

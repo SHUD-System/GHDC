@@ -1,0 +1,11 @@
+当前上传的边界文件无法使用GDAL打开。
+可能原因是1.非英文方式的文件名或文件夹名称；2. 文件格式与GDAL不兼容；3. 投影信息(.prj文件)缺失
+流域边界必须为多边形的shapefile，无法处理线条、点、或者栅格文件定义的流域边界。
+并且，边界文件的投影信息(.prj文件)是合理的。
+
+The uploaded boundary file cannot be open with GDAL.
+Possible reasons are 1. non-English name of folder/files; 2. incompatibility 
+between input file and GDAL format; 3. Projection infomation (.prj file) is missing.
+The watershed boundary file must be SpatialPolygon/SpatialPolygonDataFrame 
+(in shapefile format) with a valid projection. The PolyLine/Points shapefiles 
+or tiff format are not acceptable. 
